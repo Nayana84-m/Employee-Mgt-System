@@ -6,7 +6,7 @@ import { api } from '../api';
 const Login = ({ onLoginSuccess }) => {
   const navigate = useNavigate();
   const [role, setRole] = useState('Admin'); // Admin or Employee
-  const [email, setEmail] = useState('admin@ems.com');
+  const [email, setEmail] = useState('admin@ems.local');
   const [password, setPassword] = useState('admin123');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -14,10 +14,10 @@ const Login = ({ onLoginSuccess }) => {
   const handleRoleToggle = (selectedRole) => {
     setRole(selectedRole);
     if (selectedRole === 'Admin') {
-      setEmail('admin@ems.com');
+      setEmail('admin@ems.local');
       setPassword('admin123');
     } else {
-      setEmail('rahul@ems.com');
+      setEmail('rahul@ems.local');
       setPassword('employee123');
     }
     setError('');
@@ -133,7 +133,7 @@ const Login = ({ onLoginSuccess }) => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="name@ems.com"
+                  placeholder="name@ems.local"
                   className="w-full pl-9 pr-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:bg-white"
                   required
                 />
@@ -180,26 +180,26 @@ const Login = ({ onLoginSuccess }) => {
             <div className="space-y-1.5 text-xs">
               <button
                 type="button"
-                onClick={() => handleQuickDemoFill('admin@ems.com', 'admin123', 'Admin')}
+                onClick={() => handleQuickDemoFill('admin@ems.local', 'admin123', 'Admin')}
                 className="w-full text-left p-2 rounded-lg bg-indigo-50/70 hover:bg-indigo-100/70 text-indigo-950 font-medium flex items-center justify-between transition-colors"
               >
-                <span>🔑 <strong>Admin:</strong> admin@ems.com</span>
+                <span>🔑 <strong>Admin:</strong> admin@ems.local</span>
                 <span className="text-[10px] bg-indigo-200 text-indigo-900 px-2 py-0.5 rounded font-bold">Admin</span>
               </button>
               <button
                 type="button"
-                onClick={() => handleQuickDemoFill('rahul@ems.com', 'employee123', 'Employee')}
+                onClick={() => handleQuickDemoFill('rahul@ems.local', 'employee123', 'Employee')}
                 className="w-full text-left p-2 rounded-lg bg-emerald-50/70 hover:bg-emerald-100/70 text-emerald-950 font-medium flex items-center justify-between transition-colors"
               >
-                <span>👤 <strong>Rahul (IT):</strong> rahul@ems.com</span>
+                <span>👤 <strong>Rahul (IT):</strong> rahul@ems.local</span>
                 <span className="text-[10px] bg-emerald-200 text-emerald-900 px-2 py-0.5 rounded font-bold">Employee</span>
               </button>
               <button
                 type="button"
-                onClick={() => handleQuickDemoFill('sneha@ems.com', 'employee123', 'Employee')}
+                onClick={() => handleQuickDemoFill('sneha@ems.local', 'employee123', 'Employee')}
                 className="w-full text-left p-2 rounded-lg bg-purple-50/70 hover:bg-purple-100/70 text-purple-950 font-medium flex items-center justify-between transition-colors"
               >
-                <span>👤 <strong>Sneha (IT):</strong> sneha@ems.com</span>
+                <span>👤 <strong>Sneha (IT):</strong> sneha@ems.local</span>
                 <span className="text-[10px] bg-purple-200 text-purple-900 px-2 py-0.5 rounded font-bold">Employee</span>
               </button>
             </div>

@@ -89,9 +89,9 @@ The Login screen includes **1-Click Quick Fill Buttons** for instant evaluation:
 
 | Account Role | Email Credentials | Password | Default Redirect |
 | :--- | :--- | :--- | :--- |
-| **Administrator** | `admin@ems.com` | `admin123` | `/admin-dashboard` |
-| **Employee (Rahul Sharma)** | `rahul@ems.com` | `employee123` | `/employee-dashboard` |
-| **Employee (Sneha Nair)** | `sneha@ems.com` | `employee123` | `/employee-dashboard` |
+| **Administrator** | `admin@ems.local` | `admin123` | `/admin-dashboard` |
+| **Employee (Rahul Sharma)** | `rahul@ems.local` | `employee123` | `/employee-dashboard` |
+| **Employee (Sneha Nair)** | `sneha@ems.local` | `employee123` | `/employee-dashboard` |
 
 ---
 
