@@ -11,7 +11,7 @@
   [![CS3301 Project](https://img.shields.io/badge/CS3301-Mini_Project-8A2BE2?style=for-the-badge)](https://rvu.edu.in)
 
   <p align="center">
-    <b>A production-grade, database-free full-stack web application built for CS3301 – Full Stack Development CIE-2 React Mini Project.</b><br />
+    <b>A production-grade full-stack web application built for CS3301 – Full Stack Development CIE-2 React Mini Project.</b><br />
     Includes complete Role-Based Access Control (RBAC), live department budget salary cap alerts, and an integrated employee self-service portal.
   </p>
 
@@ -205,7 +205,7 @@ npm run dev
 
 ## 🤝 Acknowledgements & References
 
-- **Reference Tutorial:** *MERN Stack Employee Management System – Project Overview & File Structure (Part 1)* by Code With Yousaf ([YouTube Video](https://youtu.be/P_L-06VRcBI?si=-vIy8FhUseQ4yG0r))
+- **Reference Tutorial:** *MERN Stack Employee Management System – Project Overview - by Code With Yousaf ([YouTube Video](https://youtu.be/P_L-06VRcBI?si=-vIy8FhUseQ4yG0r))
 - **Institution:** School of Computer Science and Engineering, RV University, Bengaluru.
 
 ---
