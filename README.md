@@ -8,7 +8,7 @@
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.13-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
   [![Express.js](https://img.shields.io/badge/Express.js-4.19.2-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
   [![Node.js](https://img.shields.io/badge/Node.js-v20+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-  [![CS3301 Project](https://img.shields.io/badge/CS3301-Mini_Project-8A2BE2?style=for-the-badge)](https://rvu.edu.in)
+  [![CS3301 Project](https://img.shields.io/badge/CS3301-Project-8A2BE2?style=for-the-badge)](https://rvu.edu.in)
 
   <p align="center">
     <b>A production-grade full-stack web application built for CS3301 – Full Stack Development CIE-2 React Mini Project.</b><br />
@@ -19,8 +19,7 @@
 
 ---
 
-> [!IMPORTANT]
-> **Database-Free Architecture:** This application stores all data dynamically using in-memory JavaScript data structures inside the Express backend (`backend/server.js`) without external databases (No MongoDB, No SQL, No Supabase), adhering strictly to CS3301 project constraints.
+This application stores all data dynamically using in-memory JavaScript data structures inside the Express backend (`backend/server.js`) without external databases (No MongoDB, No SQL, No Supabase), adhering strictly to CS3301 project constraints.
 
 ---
 
