@@ -205,5 +205,5 @@ npm run dev
 ---
 
 <div align="center">
-  <sub>Developed for CS3301 Full Stack Development Project (2025–2026).</sub>
+  <sub>Developed for CS3301 Full Stack Development Project (2026–27).</sub>
 </div>
