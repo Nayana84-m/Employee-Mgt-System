@@ -56,7 +56,7 @@ flowchart TD
 
 ## 🚀 Modifications Made Beyond YouTube Tutorial
 
-> **Reference Inspiration:** *MERN Stack Employee Management System – Project Overview & File Structure (Part 1)* by **Code With Yousaf** ([YouTube Video](https://youtu.be/P_L-06VRcBI?si=-vIy8FhUseQ4yG0r))
+> **Reference Inspiration:** *MERN Stack Employee Management System – Project* by **Code With Yousaf** ([YouTube Video](https://youtu.be/P_L-06VRcBI?si=-vIy8FhUseQ4yG0r))
 
 Beyond the foundational tutorial concept, this application incorporates **three major documented enhancements**:
 
@@ -152,7 +152,6 @@ D:\FSD_ClassSem5\Employee-Mgt-System\
 │       ├── api.js                    # Fetch REST API Wrapper
 │       ├── App.jsx                   # Router & LocalStorage Persistence
 │       └── main.jsx                  # React Root Entrypoint
-├── PROJECT_REPORT.md                 # Complete RV University Project Report
 └── README.md                         # Project Documentation
 ```
 
@@ -206,5 +205,5 @@ npm run dev
 ---
 
 <div align="center">
-  <sub>Developed for CS3301 Full Stack Development Mini Project (2025–2026).</sub>
+  <sub>Developed for CS3301 Full Stack Development Project (2025–2026).</sub>
 </div>
