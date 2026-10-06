@@ -19,10 +19,6 @@
 
 ---
 
-This application stores all data dynamically using in-memory JavaScript data structures inside the Express backend (`backend/server.js`) without external databases (No MongoDB, No SQL, No Supabase), adhering strictly to CS3301 project constraints.
-
----
-
 ## 🌟 Key Features
 
 | Feature Module | Admin Access Role 🛡️ | Employee Access Role 👤 |
